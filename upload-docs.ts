@@ -8,6 +8,7 @@ const langbase = new Langbase({
 });
 
 async function main() {
+  console.log('Starting upload process...');
   const memoryName = 'knowledge-base';
   const filePath = path.join(process.cwd(), 'docs', 'langbase-faq.txt');
   const fileContent = await readFile(filePath);
