@@ -16,5 +16,5 @@ The vision for this project is to evolve into a **full-stack AI Assistant**.
 Future roadmap includes:
 1.  **Query Interface**: Implementing a script or API to ask questions against the uploaded memory (RAG - Retrieval Augmented Generation).
 2.  **Frontend Integration**: Building a user-friendly web interface (likely using React/Next.js) to interact with the AI.
-3.  **Dynamic Content**: allowing users to upload their own documents via the UI.
+3.  **Dynamic Content**: Allowing users to upload their own documents via the UI.
 4.  **Advanced Reasoning**: Leveraging Langbase's pipes to create more complex AI workflows.

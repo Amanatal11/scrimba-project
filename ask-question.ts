@@ -27,6 +27,7 @@ async function main() {
     const stream = await langbase.pipes.run({
         name: pipeName,
         messages: [{ role: 'user', content: question }],
+        // Enable streaming for real-time response
         stream: true,
     });
 
